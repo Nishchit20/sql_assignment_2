@@ -103,5 +103,5 @@ CREATE TABLE EMP_BKP(EmpNo INTEGER,Ename TEXT,Sal INTEGER,Hire_Date date,Commiss
 INSERT INTO EMP_BKP SELECT * FROM EmpTable;
 SELECT  * FROM EMP_BKP;
 
-/*20)A query to fetch first 3 characters from employee name appended with salary.
+/*20)A query to fetch first 3 characters from employee name appended with salary.*/
 SELECT substr(Ename,1,3)||Sal FROM EmpTable;
