@@ -1,1 +1,1 @@
-# sql_assignment_2
+SQL Queries
